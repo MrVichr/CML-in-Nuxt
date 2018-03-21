@@ -1,0 +1,27 @@
+{
+  "compilerOptions":
+   {
+    "module": "commonjs",
+    "target": "es5",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "sourceMap": false,
+    "strictNullChecks": true,
+    "lib": ["dom", "es2015"],
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "experimentalDecorators": true
+   },
+  "include":
+   [ "front/**/*",
+     "src/**/*" ],
+  "exclude":
+   ["node_modules",
+    "dist",
+    "once/**/*"]
+}
+

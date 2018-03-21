@@ -1,0 +1,50 @@
+{
+  "name": "cml",
+  "version": "1.0.0",
+  "description": "Centrální Mozek Lidstva @nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=development && nodemon ./www.js",
+    "grunt": "grunt",
+    "start": "node ./www.js",
+    "ndev": "nuxt",
+    "nbuild": "nuxt build",
+    "nstart": "nuxt start",
+    "ngenerate": "nuxt generate"
+  },
+  "author": "SEA spol. s r.o.",
+  "license": "ISC",
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "morgan": "^1.9.0",
+    "mysql2": "^1.5.3",
+    "nodemailer": "^4.6.3",
+    "nuxt": "^1.4.0",
+    "nuxt-property-decorator": "^1.0.0",
+    "vhost": "^3.0.2",
+    "vuex-class": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/errorhandler": "0.0.32",
+    "@types/method-override": "0.0.31",
+    "@types/morgan": "^1.7.35",
+    "@types/node": "^9.4.7",
+    "git": "^0.1.5",
+    "grunt": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-ts": "^6.0.0-beta.19",
+    "nodemon": "^1.17.2",
+    "postcss-loader": "^2.1.1",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.7.2"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "compilerOptions":
+   {
+    "module": "es2015",
+    "target": "es5",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": true,
+    "lib": ["dom", "es2015"],
+    "removeComments": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}
